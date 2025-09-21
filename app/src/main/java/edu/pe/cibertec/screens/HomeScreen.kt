@@ -28,7 +28,7 @@ fun HomeScreen(onNavigateTONew: () -> Unit){
             items(10){
                     index ->
                 ListItem(
-                    headlineContent = { Text("Nota # $.index") },
+                    headlineContent = { Text("Nota #$index") },
                     supportingContent = { Text("Description here..")}
 
                 )
